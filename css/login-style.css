@@ -1,0 +1,84 @@
+*{
+	margin	:	0;
+	padding	:	0;
+	font-family: helvetica;
+  text-align: center;
+}
+
+body{
+  background-color: #84b818;
+}
+
+.login{
+  display: block;
+  margin: 3% auto;
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.facebook a{
+  text-decoration: none;
+  line-height: 60px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  color: white;
+  background-color: #4267b2;
+}
+
+.pinterest a{
+  text-decoration: none;
+  line-height: 60px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  color: white;
+  background-color: #e60023;
+}
+
+.google a{
+  text-decoration: none;
+  line-height: 60px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  color: white;
+  background-color: white;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+.login img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  height: 100px;
+  width: auto;
+}
+
+.pinterest img, .facebook img, .google img{
+  display: inline-block;
+  margin: 0 auto;
+  height: 20px;
+  width: auto;
+}
+
+h1{
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+  font-family: 'Baloo Chettan 2', cursive;
+}

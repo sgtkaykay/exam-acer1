@@ -1,0 +1,236 @@
+.content{
+	margin: 0	auto;
+	width:	100%;
+	min-height:	535px;
+	text-align: center;
+}
+
+/*----------------------------- product.php --------------------------------- */
+
+.laptopwrapper{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  margin-top: 25px;
+  height: auto;
+}
+
+.laptopwrapper ul{
+  margin: 0;
+  padding: 0;
+}
+
+.laptopwrapper ul, .laptopwrapper li{
+  list-style-type: none;
+}
+
+.laptopwrapper li{
+  display: inline-block;
+  height: 256px;
+  position:relative;
+  text-align: center;
+  width: 256px;
+  margin: 0 auto 10px auto;
+  padding-top: 0;
+}
+
+.laptopwrapper img {
+  display: block;
+  background: #fff;
+  margin: 0 auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  height: 199px;
+  width: 256px;
+  object-fit:contain;
+}
+
+.laptopwrapper strong {
+  display: block;
+  font: 700 16px Arimo,Arial,sans-serif;
+  margin: 0 auto;
+  padding: 28px 5px;
+  text-decoration: none;
+  color: #777;
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+}
+
+.laptopwrapper a:hover img{
+  transition: transform .2s;
+  transform: scale(1.1);
+  background: lightgrey;
+}
+
+.laptopwrapper a:hover strong{
+  background-color: #84b818;
+  color: white;
+}
+
+.laptopwrapper li span {
+    position: absolute;
+    top: 46%;
+    left: 0;
+    padding: 0 15px;
+}
+
+.laptopwrapper a, .laptopwrapper li span {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.laptopwrapper a {
+    text-decoration: none!important;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+input[name=search]{
+	border-radius: 25px;
+	background-image: url(../image/search.png);
+	background-position: 7px 7px;
+ 	background-repeat: no-repeat;
+  padding: 5px 5px 5px 30px;
+  height: 20px;
+  width: 500px;
+  border:1px solid #615d5b;
+  outline:none;
+}
+
+/*-------------------------- end of product.php ----------------------------- */
+/*----------------------------- category.php -------------------------------- */
+
+.categoryWrapperEvery{
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.categoryWrapperOne{
+  border-top: 1px solid lightgrey;
+  margin: 30px auto 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.descwrapper{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+h2{
+  margin-top: 20px;
+  font-size: 40px;
+	margin-bottom: 15px;
+	color: darkgrey;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: grey;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+/*-------------------------- end of category.php ---------------------------- */
+/*---------------------------- product_one.php ------------------------------ */
+
+.imageContainer{
+  float:left;
+  width: 50%;
+  min-height: 535px;
+}
+
+h4{
+  margin-top: 20px;
+  font-size: 50px;
+	margin-bottom: 35px;
+	color: darkgrey;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+.imageContainer img{
+  display: block;
+  background: #fff;
+  margin: 10% auto;
+  object-fit:fill;
+}
+
+.specsContainer{
+  float:left;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+
+.specsContainer p{
+  margin: 0;
+  font-size: 20px;
+  color: grey;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.specs{
+  width: 80%;
+}
+
+.nostyle *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  text-align: left;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*------------------------- end of product_one.php -------------------------- */
+/*-------------------------------- home.php --------------------------------- */
+
+.background{
+  width: 100%;
+  background-image:url(../image/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 545px;
+}
+
+.background h1{
+  color: black;
+  font-size:45px;
+}
+
+.background h2{
+  color: black;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.background a{
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 12px;
+  font-weight:bold;
+  color: black;
+  background-color: none;
+  padding: 13px;
+}
+
+.background a:hover{
+  background-color: black;
+  color: white;
+	transition: ease .2s;
+}
+
+/*---------------------------- end of home.php ------------------------------ */

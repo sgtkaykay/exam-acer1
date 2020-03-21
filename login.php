@@ -12,7 +12,7 @@
 	$permissions = ['email'];
 	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
 
-	$gLoginURL = $loginURL = $gClient->createAuthUrl();
+	$gLoginURL = $gClient->createAuthUrl();
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

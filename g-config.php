@@ -4,7 +4,7 @@
 	$gClient = new Google_Client();
 	$gClient->setClientId("1044492130865-i8vakvn81gme5eq7poafcptctdkrlohm.apps.googleusercontent.com");
 	$gClient->setClientSecret("dywTN5Nv5Wi5A0kfS6vXReXA");
-	$gClient->setApplicationName("CPI Login Tutorial");
+	$gClient->setApplicationName("acer-exam");
 	$gClient->setRedirectUri("https://exam-acer.herokuapp.com/g-callback.php");
 	$gClient->addScope("https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email");
 ?>

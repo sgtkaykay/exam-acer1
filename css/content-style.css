@@ -160,7 +160,8 @@ h4{
   display: block;
   background: #fff;
   margin: 10% auto;
-  object-fit:cover;
+  width: 400px;
+  height: auto;
 }
 
 .specsContainer{
